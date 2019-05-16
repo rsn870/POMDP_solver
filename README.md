@@ -1,9 +1,10 @@
-# POMDP_solver
-The purpose of this project is to create a more effecient means for a  solution for Partially Observable Markov Decision Processes (POMDPs) .We wish to find the existence of a best possible solution if it exists otherwise we wish to provide an excellent approximation for the same.Potential applications inlcude a better quantification of uncertainity commonly encountered in Reinforcement Learning Appliacations ranging from co-operative usage in drones to designing better agents for more interactive gaming to more dynamic environments such as Weather Modelling and disease prediction.
 
-One of the crucial issues that has ensured a very low adaptation of POMDPs despite their wide range of applicability involves the issue of scalbility to real-world systems with an enormous range of uncertain states and observations.
+The purpose of this project is to create a more efficient means for a  solution for Partially Observable Markov Decision Processes (POMDPs) .We wish to find the existence of a best possible solution if it exists otherwise we wish to provide an excellent approximation for the same.Potential applications inlcude a better quantification of uncertainty commonly encountered in Reinforcement Learning Applications ranging from co-operative usage in drones to designing better agents for more interactive gaming to more dynamic environments such as Weather Modelling and disease prediction.
 
-We wish to tackle this process steadily by increasing the complexity of our testing environments as a step by step process.Therefore we choose to begin with what is arguably the classical training ground for POMDPs (analogous to the knapsack problem in Dynamic Problem or one of the standard datsets used extensively in ML research )
+
+One of the crucial issues that has ensured a very low adaptation of POMDPs despite their wide range of applicability involves the issue of scalability to real-world systems with an enormous range of uncertain states and observations.
+
+We wish to tackle this process steadily by increasing the complexity of our testing environments as a step by step process.Therefore we choose to begin with what is arguably the classical training ground for POMDPs (analogous to the knapsack problem in Dynamic Problem or one of the standard datasets used extensively in ML research )
 
 The Tiger Problem which is our training ground broadly involves the following situations:
 
@@ -22,10 +23,5 @@ Now the tiger problem has already been solved by various methods and one standar
 Our implementation is python based and we base it on the excellent  interface and implementation given by Malayandi at https://github.com/malayandi/Tiger-Problem-POMDP
 
 The first approach that we are going to use is to model the POMDP as a hidden markov model acting on a point process .We choose to do this for the following reasons:
-1.The approximation of POMDP as a hidden markov model has proved to pretty useful to resaerchers in the past
+1.The approximation of POMDP as a hidden markov model has proved to pretty useful to researrchers in the past
 2 The point based decomposition used in Point Based Value Iteration inspires the usage of a point process moreover considering the dependence on the past histories we prefer a self exciting or Hawkes Process
-
-Here I cite the work of Peng Li et.al (Infinite Hidden Semi-Markov Modulated InteractionPoint Process ) and Srikanta Bedathur et.al (Discovering Topical Interactions in Text-based Cascades using Hidden Markov Hawkes Processes)
-
-
-
