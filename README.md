@@ -17,7 +17,7 @@ Rewards associated with these actions depend on the resulting state: +10 for ope
 
 As a result of listening, there are two observations: either you hear the tiger on the right (tiger-right), or you hear it on the left (tiger-left). 
 
-Now the tiger problem has already been solved by various methods and one standard method used today extensively in a wide range of methods is the Point Based Value Iteration.We shall take the performance of this algorithm as the benchmark in our journey to find a possibly better algorithm 
+Now the tiger problem has already been solved by various methods and one standard method used today extensively in a wide range of situations is the Point Based Value Iteration.We shall take the performance of this algorithm as the benchmark in our journey to find a possibly better algorithm 
 
 Our implementation is python based and we base it on the excellent  interface and implementation given by Malayandi at https://github.com/malayandi/Tiger-Problem-POMDP
 
