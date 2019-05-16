@@ -3,7 +3,7 @@ The purpose of this project is to create a more effecient means for a  solution 
 
 One of the crucial issues that has ensured a very low adaptation of POMDPs despite their wide range of applicability involves the issue of scalbility to real-world systems with an enormous range of uncertain states and observations.
 
-We wish to tackle this process steadily by increasing the complexity of our testing environments as a step by step process.Therefore we choose to begin with what is arguably the classical training ground for POMDPs (analogous to the knapsack problem in Dynamic Problem or one of the standard datsets used extensively in research )
+We wish to tackle this process steadily by increasing the complexity of our testing environments as a step by step process.Therefore we choose to begin with what is arguably the classical training ground for POMDPs (analogous to the knapsack problem in Dynamic Problem or one of the standard datsets used extensively in ML research )
 
 The Tiger Problem which is our training ground broadly involves the following situations:
 
