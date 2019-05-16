@@ -23,5 +23,5 @@ Now the tiger problem has already been solved by various methods and one standar
 Our implementation is python based and we base it on the excellent  interface and implementation given by Malayandi at https://github.com/malayandi/Tiger-Problem-POMDP
 
 The first approach that we are going to use is to model the POMDP as a hidden markov model acting on a point process .We choose to do this for the following reasons:
-1.The approximation of POMDP as a hidden markov model has proved to pretty useful to researrchers in the past
+1.The approximation of POMDP as a hidden markov model has proved to pretty useful to researchers in the past
 2 The point based decomposition used in Point Based Value Iteration inspires the usage of a point process moreover considering the dependence on the past histories we prefer a self exciting or Hawkes Process
